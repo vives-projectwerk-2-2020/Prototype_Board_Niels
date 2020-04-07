@@ -16,9 +16,11 @@ If you want to see the shematic and the board just look in the "Board shematic" 
 ## Testing the SDS011 sensor (succesfull)
 
 1. Setup of the sensor.
+
 ![setup SDS011](/images/setup_sensor_SDS011.png)
 
 2. Reading the values in putty.
+
 ![putty SDS011](/images/putty_SDS011.png)
 
 3. Extra information.
