@@ -25,3 +25,16 @@ If you want to see the shematic and the board just look in the "Board shematic" 
 
 3. Extra information.
     * The pins are connected on D0 and D1.
+
+## Testing the EEPROM driver (succesfull)
+
+1. Setup of the sensor.
+
+![setup EEPROM](/images/EEPROM.png)
+
+2. Reading out an array in putty.
+
+![putty EEPROM](/images/putty_EEPROM.png)
+
+3. Extra information.
+    * While testing i connected the pins to D4 and D5.
