@@ -35,8 +35,6 @@ On the top of the board you can see 4 holes this is the VCC of the SDS011 sensor
 
 ![print soldered](/images/board_soldered.png)
 
-## Tests
-
 ## Testing the SDS011 sensor
 
 1. Setup of the sensor.
@@ -87,3 +85,13 @@ This test has been executed by Laura this pcb works perfectly together with my b
 2. Extra information.
     * You can find extra information in the link below.
     * [Link testing LoRaWAN-antenna](https://github.com/vives-projectwerk-2-2020/LoRaWAN-antenna/tree/master/testing)
+
+## Adding components to the old board so that the SDS011 sensor can go in sleep mode
+
+I upgraded the old shematic a bit so that the SDS011 sensor can go in sleep mode. In the picture below you can see the shematic about how to make it.
+
+![shematic of sleepmode](/images/sleep.png)
+
+When the digital output goes high, Q1 is turned on. That pulls down the gate of Q2 low, turning it on.
+When the digital output is low, Q1 is held off. R1 then pulls the gate high, turning off Q2.
+R1 was chosen to be so high to minimize the current when the device is powered on.
