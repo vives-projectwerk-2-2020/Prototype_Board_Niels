@@ -1,9 +1,12 @@
 # Prototype_Board_Niels
 
-## description
+## Description
 
-In this readme you will find some pictures about the print that i have created.
-If you want to see the shematic and the board just look in the "Board shematic" folder.
+In this readme you can find all information about the prototype board with sensors. I made first a test board this board cannot be placed inside the box. This board works perfect with all sensors. The second board i made is made to put inside the box, i also implemented extra pins for the other boards. I also added a extra part to get the SDS011 sensor in sleep mode i will explain this in the info below.
+
+## Shematic of the old board
+
+![old shematic](/images/oldShematic.png)
 
 ## The print when nothing was soldered
 
@@ -32,9 +35,9 @@ If you want to see the shematic and the board just look in the "Board shematic" 
 
 ![setup EEPROM](/images/EEPROM.png)
 
-2. Reading out an array in putty.
+2.Reading out an array in putty.
 
 ![putty EEPROM](/images/putty_EEPROM.png)
 
-3. Extra information.
+3.Extra information.
     * While testing i connected the pins to D4 and D5.

@@ -9590,6 +9590,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+3.3V"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206W" package3d_urn="urn:adsk.eagle:package:23539/2" value="0 Ω"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+3.3V"/>
 </parts>
 <sheets>
 <sheet>
@@ -9741,6 +9742,9 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <instance part="GND8" gate="1" x="238.76" y="88.9" smashed="yes">
 <attribute name="VALUE" x="236.22" y="86.36" size="1.778" layer="96"/>
 </instance>
+<instance part="P+10" gate="VCC" x="187.96" y="114.3" smashed="yes" rot="R180">
+<attribute name="VALUE" x="190.5" y="116.84" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9810,6 +9814,29 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 <wire x1="330.2" y1="101.6" x2="330.2" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BME280_2" gate="G$1" pin="1"/>
+<wire x1="287.02" y1="165.1" x2="279.4" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="165.1" x2="279.4" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="172.72" x2="299.72" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="172.72" x2="299.72" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="139.7" x2="279.4" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="139.7" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="BME280_2" gate="G$1" pin="7"/>
+<wire x1="279.4" y1="149.86" x2="287.02" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="139.7" x2="271.78" y2="139.7" width="0.1524" layer="91"/>
+<junction x="279.4" y="139.7"/>
+<wire x1="271.78" y1="139.7" x2="271.78" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="129.54" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$2" pin="VIN"/>
+<wire x1="193.04" y1="129.54" x2="193.04" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="121.92" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="116.84" x2="198.12" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="P+10" gate="VCC" pin="VCC"/>
+<wire x1="187.96" y1="116.84" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="121.92" x2="193.04" y2="121.92" width="0.1524" layer="91"/>
+<junction x="193.04" y="121.92"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -10135,26 +10162,6 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <pinref part="U3" gate="G$2" pin="+5V"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="124.46" x2="294.64" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="BME280_2" gate="G$1" pin="1"/>
-<wire x1="287.02" y1="165.1" x2="279.4" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="165.1" x2="279.4" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="172.72" x2="299.72" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="172.72" x2="299.72" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="139.7" x2="279.4" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="139.7" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="BME280_2" gate="G$1" pin="7"/>
-<wire x1="279.4" y1="149.86" x2="287.02" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="139.7" x2="271.78" y2="139.7" width="0.1524" layer="91"/>
-<junction x="279.4" y="139.7"/>
-<wire x1="271.78" y1="139.7" x2="271.78" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="129.54" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$2" pin="VIN"/>
-<wire x1="193.04" y1="129.54" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="116.84" x2="198.12" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

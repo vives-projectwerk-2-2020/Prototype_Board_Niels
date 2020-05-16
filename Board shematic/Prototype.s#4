@@ -9575,6 +9575,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+3.3V"/>
 <part name="S3" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="31-XX" device="" package3d_urn="urn:adsk.eagle:package:27487/1"/>
+<part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+3.3V"/>
 </parts>
 <sheets>
 <sheet>
@@ -9722,6 +9723,9 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="206.375" y="194.31" size="1.778" layer="95"/>
 <attribute name="VALUE" x="211.455" y="191.77" size="1.778" layer="96"/>
 </instance>
+<instance part="P+10" gate="VCC" x="307.34" y="154.94" smashed="yes" rot="R270">
+<attribute name="VALUE" x="304.8" y="157.48" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9786,6 +9790,21 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U3" gate="G$2" pin="+3V3"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <wire x1="228.6" y1="121.92" x2="236.22" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BME280_2" gate="G$1" pin="7"/>
+<wire x1="279.4" y1="149.86" x2="287.02" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="BME280_2" gate="G$1" pin="1"/>
+<wire x1="287.02" y1="165.1" x2="279.4" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="165.1" x2="279.4" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="172.72" x2="299.72" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="172.72" x2="299.72" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="154.94" x2="299.72" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="139.7" x2="279.4" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="139.7" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="P+10" gate="VCC" pin="VCC"/>
+<wire x1="304.8" y1="154.94" x2="299.72" y2="154.94" width="0.1524" layer="91"/>
+<junction x="299.72" y="154.94"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -10108,19 +10127,6 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="BME280_2" gate="G$1" pin="1"/>
-<wire x1="287.02" y1="165.1" x2="279.4" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="165.1" x2="279.4" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="172.72" x2="299.72" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="172.72" x2="299.72" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="139.7" x2="279.4" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="139.7" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="BME280_2" gate="G$1" pin="7"/>
-<wire x1="279.4" y1="149.86" x2="287.02" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="139.7" x2="271.78" y2="139.7" width="0.1524" layer="91"/>
-<junction x="279.4" y="139.7"/>
-<wire x1="271.78" y1="139.7" x2="271.78" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="129.54" x2="269.24" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$2" pin="VIN"/>
 <wire x1="269.24" y1="129.54" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="129.54" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
@@ -10128,7 +10134,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="294.64" y1="116.84" x2="269.24" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="116.84" x2="269.24" y2="129.54" width="0.1524" layer="91"/>
-<junction x="269.24" y="129.54"/>
 </segment>
 </net>
 </nets>
