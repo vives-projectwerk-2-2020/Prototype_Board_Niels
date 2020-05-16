@@ -82,7 +82,7 @@ This test has been executed by Laura this pcb works perfectly together with my b
 
 1. Setup of the boards.
 
-   ![setup LoRaWan](/images/LoRaWAN.png)
+   ![setup LoRaWan](/images/LoRaWAN_pcb.png)
 
 2. Extra information.
     * You can find extra information in the link below.
