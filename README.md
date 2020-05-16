@@ -65,7 +65,7 @@ On the top of the board you can see 4 holes this is the VCC of the SDS011 sensor
 
 ## Testing the BME280 sensor
 
-I could not test this sensor because i don't have that sensor at home. I tested it with the fake values from Ladzlo and something was wrong wiht compiling. But other people tried this sensor and connected it just like how i connected it in my shematic so normally it would work perfectly.
+I could not test this sensor because i don't have that sensor at home. I tested it with the fake values from Ladzlo and something was wrong with compiling. But other people tried this sensor and connected it just like how i connected it in my shematic so normally it would work perfectly.
 
 1. Setup of the sensor.
 
