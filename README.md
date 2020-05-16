@@ -1,4 +1,4 @@
-# Prototype_Board_Niels
+# Prototype board with sensors
 
 ## Description
 
@@ -18,6 +18,12 @@ Right from the top block from the nulceo you can see a connector that is called 
 On top of the shematic you can see a big block this is the EEPROM. Pin 2 is connected to the ground and pin 4 is connected to the VCC. Pin 5 is not connected, pin 1 is connected to a resistor with a value of 2k2 ohm to protect the SCL line and is connected tot the D5 on the nucleo. Pin 3 is connected to a resistor with a value of 2k2 ohm to protect the SDA line and is connected with D4 on the nucleo.
 
 ![old shematic](/images/oldShematic.png)
+
+## Board shematic of the old board
+
+![old board](/images/oldBoard.png)
+
+![old board polygoon](/images/oldBoardPolygoon.png)
 
 ## The print when nothing was soldered
 
