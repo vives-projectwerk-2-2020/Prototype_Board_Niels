@@ -113,3 +113,22 @@ R1 was chosen to be so high to minimize the current when the device is powered o
 ![new board](/images/newBoard.png)
 
 ![new polygoon](/images/newPolygoon.png)
+
+## Partlist
+
+* [Female header](https://be.farnell.com/samtec/ssw-107-01-t-s/connector-rcpt-7pos-1row-2-54mm/dp/2667434)
+* [Pinheader SDS011](https://be.farnell.com/molex/22-28-4050/connector-header-5pos-1row-2-54mm/dp/2381173)
+* [Push button](https://be.farnell.com/c-k-components/pts645sl43-2-lfs/tactile-switch-spst-0-05a-12vdc/dp/2435161)
+* [EEPROM](https://be.farnell.com/microchip/24aa64t-i-ot/serial-eeprom-64kbit-400khz-sot/dp/2101260)
+* [100 nF capacitor](https://be.farnell.com/avx/02016d104kat2a/cap-0-1-f-6-3v-10-x5r-0201/dp/1657913?st=smd%20capacitor)
+* [2k2 ohm resistor](https://be.farnell.com/vishay/crcw06032k20fkeahp/res-2k2-1-0-33w-0603-thick-film/dp/1738909?st=2k2%20smd%20resistor)
+* [100k ohm resistor](https://be.farnell.com/vishay/crcw0402100kfked/res-100k-1-0-063w-0402-thick-film/dp/1469671?st=100k%20smd%20resistor)
+* [1M ohm resistor](https://be.farnell.com/vishay/crcw04021m00fked/res-1m-1-0-063w-0402-thick-film/dp/1469667?st=1M%20smd%20resistor)
+* [4k7 ohm resistor](https://be.farnell.com/vishay/crcw06034k70fkea/res-4k7-1-0-1w-0603-thick-film/dp/1469807?st=4k7%20smd%20resistor)
+* [15 pins Female header](https://be.farnell.com/harwin/m20-7821546/connector-rcpt-15pos-2-54mm-1row/dp/3225931)
+* [4 pins Female header](https://be.farnell.com/multicomp/2212s-04sg-85/socket-pcb-1-row-4way/dp/1593460)
+* [5 pins Female header](https://be.farnell.com/multicomp/2212s-05sg-85/socket-pcb-1-row-5way/dp/1593461)
+* [2 pins Male header](https://be.farnell.com/amp-te-connectivity/5-146281-2/board-board-connector-header-2/dp/1792060)
+* [Nucleo](https://be.farnell.com/stmicroelectronics/nucleo-l432kc/dev-board-nucleo-32/dp/2580786?scope=partnumberlookahead&ost=NUCLEO-L432KC&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Anl-BE%2FElement14_Belgium%2Fw%2Fsearch)
+* [Transistor](https://be.farnell.com/on-semiconductor/mmbt4401lt1g/transistor-npn-sot-23/dp/1459105?st=MMBT4401)
+* [Mosfet](https://be.farnell.com/on-semiconductor/ntr4101pt1g/mosfet-p-20v-sot-23/dp/1431303?st=NTR4101PT1G%20P-Channel%20MOSFET)

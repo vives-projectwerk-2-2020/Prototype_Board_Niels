@@ -1,0 +1,18 @@
+Part;Value;Device;Package;Description;Link Farnell;Aantal;Prijs voor 1;Totale prijs
+BME280_2;;FE07-1;FE07;FEMALE HEADER;https://be.farnell.com/samtec/ssw-107-01-t-s/connector-rcpt-7pos-1row-2-54mm/dp/2667434;10;0,527;5.27
+C1;100nF;C-EUC0603K;C0603K;CAPACITOR, European symbol;Op School;;;
+C2;100nF;C-EUC0603K;C0603K;CAPACITOR, European symbol;Op School;;;
+JP2;;PINHD-1X1;1X01;PIN HEADER;https://be.farnell.com/molex/90120-0762/btb-conn-header-2pos-1row-2-54mm/dp/9733302;10;0,381;3.81
+JP3;;PINHD-1X1;1X01;PIN HEADER;/ ;;;
+R1;2k2;R-EU_R1206W;R1206W;RESISTOR, European symbol;Op School;;;
+R2;2k2;R-EU_R1206W;R1206W;RESISTOR, European symbol;Op School;;;
+R3;2k2;R-EU_R1206W;R1206W;RESISTOR, European symbol;Op School;;;
+R8;4k7 Ω;R-EU_R1206W;R1206W;RESISTOR, European symbol;Op School;;;
+R9;0 Ω;R-EU_R1206W;R1206W;RESISTOR, European symbol;/;;;
+SDS011;;PINHD-1X5;1X05;PIN HEADER;https://be.farnell.com/molex/22-28-4050/connector-header-5pos-1row-2-54mm/dp/2381173;10;0,148;1.48
+SV1;;FE15-1;FE15;FEMALE HEADER;https://be.farnell.com/harwin/m20-7821546/connector-rcpt-15pos-2-54mm-1row/dp/3225931;30;1,11;33.3
+SW1;1-1825910-4;1-1825910-4;TE_1-1825910-4;Switch Tactile OFF (ON) ;https://be.farnell.com/c-k-components/pts645sl43-2-lfs/tactile-switch-spst-0-05a-12vdc/dp/2435161;10;0,139;1.39
+U3;NUCLEO-L432KC;NUCLEO-L432KC;MODULE_NUCLEO-L432KC;STM32 Nucleo-32 development board ;/;;;
+U4;24AA64T-I/OT;24AA64T-I/OT;SOT-23-5_MC;;https://be.farnell.com/microchip/24aa64t-i-ot/serial-eeprom-64kbit-400khz-sot/dp/2101260;10;0,328;3.28
+;;;;;;;;
+;;;;;;;Totaal:;48.53

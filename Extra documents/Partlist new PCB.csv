@@ -1,0 +1,20 @@
+Part;Value;Device;Package;Description;Links
+BME280_2;;FE07-1;FE07;FEMALE HEADER;https://be.farnell.com/samtec/ssw-107-01-t-s/connector-rcpt-7pos-1row-2-54mm/dp/2667434
+C1;100nF;C-EUC0603K;C0603K;CAPACITOR, European symbol;https://be.farnell.com/avx/02016d104kat2a/cap-0-1-f-6-3v-10-x5r-0201/dp/1657913?st=smd%20capacitor
+C2;100nF;C-EUC0603K;C0603K;CAPACITOR, European symbol;https://be.farnell.com/avx/02016d104kat2a/cap-0-1-f-6-3v-10-x5r-0201/dp/1657913?st=smd%20capacitor
+Q1;MMBT4401;LM3480IM3-5.0;SOT95P263X110-3N;Linear Voltage Regulator;https://be.farnell.com/on-semiconductor/mmbt4401lt1g/transistor-npn-sot-23/dp/1459105?st=MMBT4401
+Q2;NTR410PT1G;BSS84LT1;SOT23;OnSemi's BSS84LT1 Power MOSFET 130 mA, 50 V RDS(on) = 10;https://be.farnell.com/on-semiconductor/ntr4101pt1g/mosfet-p-20v-sot-23/dp/1431303?st=NTR4101PT1G%20P-Channel%20MOSFET
+R1;2k2;R-EU_R1206W;R1206W;RESISTOR, European symbol;https://be.farnell.com/vishay/crcw06032k20fkeahp/res-2k2-1-0-33w-0603-thick-film/dp/1738909?st=2k2%20smd%20resistor
+R2;2k2;R-EU_R1206W;R1206W;RESISTOR, European symbol;https://be.farnell.com/vishay/crcw06032k20fkeahp/res-2k2-1-0-33w-0603-thick-film/dp/1738909?st=2k2%20smd%20resistor
+R3;2k2;R-EU_R1206W;R1206W;RESISTOR, European symbol;https://be.farnell.com/vishay/crcw06032k20fkeahp/res-2k2-1-0-33w-0603-thick-film/dp/1738909?st=2k2%20smd%20resistor
+R4;100k;R-EU_R1206W;R1206W;RESISTOR, European symbol;https://be.farnell.com/vishay/crcw0402100kfked/res-100k-1-0-063w-0402-thick-film/dp/1469671?st=100k%20smd%20resistor
+R5;1M;R-EU_R1206W;R1206W;RESISTOR, European symbol;https://be.farnell.com/vishay/crcw04021m00fked/res-1m-1-0-063w-0402-thick-film/dp/1469667?st=1M%20smd%20resistor
+R8;4k7 Ω;R-EU_R1206W;R1206W;RESISTOR, European symbol;https://be.farnell.com/vishay/crcw06034k70fkea/res-4k7-1-0-1w-0603-thick-film/dp/1469807?st=4k7%20smd%20resistor
+SDS011;;PINHD-1X5;1X05;PIN HEADER;https://be.farnell.com/molex/22-28-4050/connector-header-5pos-1row-2-54mm/dp/2381173
+SV1;;FE15-1;FE15;FEMALE HEADER;https://be.farnell.com/harwin/m20-7821546/connector-rcpt-15pos-2-54mm-1row/dp/3225931
+SV2;;MA04-1;MA04-1;PIN HEADER;https://be.farnell.com/multicomp/2212s-04sg-85/socket-pcb-1-row-4way/dp/1593460
+SV3;;MA05-1;MA05-1;PIN HEADER;https://be.farnell.com/multicomp/2212s-05sg-85/socket-pcb-1-row-5way/dp/1593461
+SW1;1-1825910-4;1-1825910-4;TE_1-1825910-4;Switch Tactile OFF (ON) ;https://be.farnell.com/c-k-components/pts645sl43-2-lfs/tactile-switch-spst-0-05a-12vdc/dp/2435161
+U3;NUCLEO-L432KC;NUCLEO-L432KC;MODULE_NUCLEO-L432KC;STM32 Nucleo-32 development board;https://be.farnell.com/microchip/24aa64t-i-ot/serial-eeprom-64kbit-400khz-sot/dp/2101260
+U4;24AA64T-I/OT;24AA64T-I/OT;SOT-23-5_MC;;https://be.farnell.com/stmicroelectronics/nucleo-l432kc/dev-board-nucleo-32/dp/2580786?scope=partnumberlookahead&ost=NUCLEO-L432KC&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Anl-BE%2FElement14_Belgium%2Fw%2Fsearch
+X1;22-23-2021;22-23-2021;22-23-2021;".100 (2.54mm) Center Header - 2 Pin""";https://be.farnell.com/amp-te-connectivity/5-146281-2/board-board-connector-header-2/dp/1792060
