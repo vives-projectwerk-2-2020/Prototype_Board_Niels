@@ -54,7 +54,7 @@ On the top of the board you can see 4 holes this is the VCC of the SDS011 sensor
 
 1. Setup of the sensor.
 
-   ![setup EEPROM](/images/eeprom.png)
+   ![setup EEPROM](/images/setup_EEPROM.png)
 
 2. Reading out an array in putty.
 
