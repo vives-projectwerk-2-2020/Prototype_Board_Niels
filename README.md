@@ -35,28 +35,43 @@ On the top of the board you can see 4 holes this is the VCC of the SDS011 sensor
 
 ![print soldered](/images/board_soldered.png)
 
-## Testing the SDS011 sensor (succesfull)
+## Tests
+
+## Testing the SDS011 sensor
 
 1. Setup of the sensor.
 
-![setup SDS011](/images/setup_sensor_SDS011.png)
+   ![setup SDS011](/images/setup_sensor_SDS011.png)
 
 2. Reading the values in putty.
 
-![putty SDS011](/images/putty_SDS011.png)
+   ![putty SDS011](/images/putty_SDS011.png)
 
 3. Extra information.
     * The pins are connected on D0 and D1.
 
-## Testing the EEPROM driver (succesfull)
+## Testing the EEPROM driver
 
 1. Setup of the sensor.
 
-![setup EEPROM](/images/EEPROM.png)
+   ![setup EEPROM](/images/EEPROM.png)
 
-2.Reading out an array in putty.
+2. Reading out an array in putty.
 
-![putty EEPROM](/images/putty_EEPROM.png)
+   ![putty EEPROM](/images/putty_EEPROM.png)
 
-3.Extra information.
+3. Extra information.
     * While testing i connected the pins to D4 and D5.
+
+## Testing the BME280 sensor
+
+I could not test this sensor because i don't have that sensor at home. I tested it with the fake values from Ladzlo and something was wrong wiht compiling. But other people tried this sensor and connected it just like how i connected it in my shematic so normally it would work perfectly.
+
+1. Setup of the sensor.
+
+   Connect the sensor in the pins in the red circle shown in the picture below.
+
+   ![setup BME](/images/setup_BME.png)
+
+2. Extra information.
+    * I connected the BME to pins D4 and D5 on the nucleo.
