@@ -75,3 +75,15 @@ I could not test this sensor because i don't have that sensor at home. I tested 
 
 2. Extra information.
     * I connected the BME to pins D4 and D5 on the nucleo.
+
+## Testing antenna PCB board
+
+This test has been executed by Laura this pcb works perfectly together with my board all the info about the tests can you find in the github repository from the antenna board.
+
+1. Setup of the boards.
+
+   ![setup LoRaWan](/images/LoRaWAN.png)
+
+2. Extra information.
+    * You can find extra information in the link below.
+    * [Link testing LoRaWAN-antenna](https://github.com/vives-projectwerk-2-2020/LoRaWAN-antenna/tree/master/testing)
