@@ -95,3 +95,7 @@ I upgraded the old shematic a bit so that the SDS011 sensor can go in sleep mode
 When the digital output goes high, Q1 is turned on. That pulls down the gate of Q2 low, turning it on.
 When the digital output is low, Q1 is held off. R1 then pulls the gate high, turning off Q2.
 R1 was chosen to be so high to minimize the current when the device is powered on.
+
+## Shematic of the new board
+
+![shematic of new board](/images/newBoard.png)
