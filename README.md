@@ -21,6 +21,8 @@ On top of the shematic you can see a big block this is the EEPROM. Pin 2 is conn
 
 ## Board shematic of the old board
 
+On the top of the board you can see 4 holes this is the VCC of the SDS011 sensor. These holes are were provided so you could erase the line and add more voltage to it from the solar pannel board. These holes were removed on the newest board.
+
 ![old board](/images/oldBoard.png)
 
 ![old board polygoon](/images/oldBoardPolygoon.png)
