@@ -86,6 +86,18 @@ This test has been executed by Laura this pcb works perfectly together with my b
     * You can find extra information in the link below.
     * [Link testing LoRaWAN-antenna](https://github.com/vives-projectwerk-2-2020/LoRaWAN-antenna/tree/master/testing)
 
+## Shematic of the new board
+
+The difference between the old and the new board is that i added extra pins for the battery pcb and also pins for an extra board so that the voltage can go from 3V3 to 5V so that the SDS011 sensor can work well. I also added sleep mode for the SDS011.
+
+Left from the lowest nucleo shematic i added added 3 extra connectors. SV3 is provided so that the solar board can be connected to my board. SV2 are connectors to add the extra print that converts te voltage 3V3 to 5V, we have to do that so that the SDS011 can function well.
+
+Below the SV2 connector there are 2 pins these pins are provided to connect the wires from the batteries to my pcb. In the board you can also see a lot of holes. These holes are provided to connect the pcb with the box, the 2 holes in the center are provided for the batteries you can connect these under the PCB or above.
+
+In the top left of the shematic you can see i added there also extra components. These components are provided so that the SDS011 can go in sleep mode. I connected this to pin D2 on the nucleo, the info about the shematic can you find in the topic "Adding components to the old board so that the SDS011 sensor can go in sleep mode" this will be discussed below.
+
+![shematic of new board](/images/newShematic.png)
+
 ## Adding components to the old board so that the SDS011 sensor can go in sleep mode
 
 I upgraded the old shematic a bit so that the SDS011 sensor can go in sleep mode. In the picture below you can see the shematic about how to make it.
@@ -95,10 +107,6 @@ I upgraded the old shematic a bit so that the SDS011 sensor can go in sleep mode
 When the digital output goes high, Q1 is turned on. That pulls down the gate of Q2 low, turning it on.
 When the digital output is low, Q1 is held off. R1 then pulls the gate high, turning off Q2.
 R1 was chosen to be so high to minimize the current when the device is powered on.
-
-## Shematic of the new board
-
-![shematic of new board](/images/newShematic.png)
 
 ## Board shematic of the new board
 
