@@ -84,7 +84,7 @@ This test has been executed by Laura this pcb works perfectly together with my b
 
 2. Extra information.
     * You can find extra information in the link below.
-    * [Link testing LoRaWAN-antenna](https://github.com/vives-projectwerk-2-2020/LoRaWAN-antenna/tree/master/testing)
+    * [Link testing LoRaWAN-antenna](https://github.com/vives-projectwerk-2-2020/LoRaWAN-antenna)
 
 ## Shematic of the new board
 
