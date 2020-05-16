@@ -98,4 +98,10 @@ R1 was chosen to be so high to minimize the current when the device is powered o
 
 ## Shematic of the new board
 
-![shematic of new board](/images/newBoard.png)
+![shematic of new board](/images/newShematic.png)
+
+## Board shematic of the new board
+
+![new board](/images/newBoard.png)
+
+![new polygoon](/images/newPolygoon.png)
