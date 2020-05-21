@@ -114,6 +114,12 @@ R1 was chosen to be so high to minimize the current when the device is powered o
 
 ![new polygoon](/images/newPolygoon.png)
 
+## The waterproof box
+
+All the boards from the hardware needs to be combined in this waterproof box. In the picture below you can see how we arranged the prints in the box. The grey sensor board is my board, all the other boards will be connected to my board with connectors or with holes in the pcb. I can connect also my pcb to the box. You can see in the picture that the antenna board is far away from the other pcb's. This is because the antenna may not get malfunctions from other boards. The part that is not on the picture but in the box are the batteries. You can add the batteries under my print or add it on top of it with spacers.
+
+![block scheme box](/images/boxBlockScheme.png) ![real box](/images/realBox.png)
+
 ## Partlist
 
 * [Female header](https://be.farnell.com/samtec/ssw-107-01-t-s/connector-rcpt-7pos-1row-2-54mm/dp/2667434)
