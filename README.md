@@ -4,6 +4,12 @@
 
 In this readme you can find all information about the prototype board with sensors. I made first a test board this board cannot be placed inside the box. This board works perfect with all sensors. The second board i made is made to put inside the box, i also implemented extra pins for the other boards. I also added a extra part to get the SDS011 sensor in sleep mode i will explain this in the info below.
 
+## The nucleo
+
+The central part of my board is the nucleo-L432KC. The STM32 Nucleo-32 board provides an affordable and flexible way for users to try out new concepts and build prototypes with the STM32 microcontroller, choosing from the various combinations of performance, power consumption and features. In the picture below you can see how the nucleo looks like and how the pins are devided. If i talk about pins in the info beneeth you can look on this picture where you can find the pins.
+
+![nucleo pin layout](/images/nucleoPinLayout.png)
+
 ## Shematic of the old board
 
 In this shematic you see in the center of the shematic 2 big blocks the top one is the left side of the nucleo-L432KC. The block below is the right side of the nucleo-L432KC. On the right side from the second nucleo-L432KC block you can see 2 pins they are called JP2 and JP3. These pins were provided for the solar panel board, JP2 is connected with the Vin from the nucleo and JP3 is just the ground. There is also a reset button connected to NRST on the nucleo.
