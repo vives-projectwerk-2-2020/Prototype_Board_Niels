@@ -114,6 +114,12 @@ When the digital output goes high, Q1 is turned on. That pulls down the gate of 
 When the digital output is low, Q1 is held off. R1 then pulls the gate high, turning off Q2.
 R1 was chosen to be so high to minimize the current when the device is powered on.
 
+## Block diagram new board
+
+Here can you see the block diagram of the new board. This block diagram is a quick summary of what is on my new board.
+
+![old block diagram](/images/blockDiagramNewBoard.png)
+
 ## Board shematic of the new board
 
 ![new board](/images/newBoard.png)
